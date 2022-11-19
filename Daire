@@ -1,0 +1,22 @@
+import java.util.Scanner;
+public class DaireÖdev {
+/*Yarıçapı r, merkez açısının ölçüsü 𝛼 olan daire diliminin alanı bulan programı yazınız.
+𝜋 sayısını = 3.14 alınız.
+Formül : (𝜋 * (r*r) * 𝛼) / 360
+ */
+	public static void main(String[] args) {
+		int r ;
+		double pi = 3.14,alfa,alan;
+		Scanner k = new Scanner(System.in);
+		System.out.println("Dairenin yaricapini giriniz :");
+		r = k.nextInt();
+		System.out.println("Alfa degerini giriniz :");
+		alfa = k.nextDouble();
+		alan = (pi * (r*r) * alfa);
+		System.out.println("DAIRENIN ALANI :" + alan);
+		
+		
+
+	}
+
+}
