@@ -1,0 +1,20 @@
+import java.util.Scanner;
+public class Hipotenus {
+	public static void main(String[] args) {
+		int a,b;
+		double c;
+		Scanner k= new Scanner(System.in);
+		System.out.print("1.kenari giriniz :");
+		a = k.nextInt();
+		System.out.print("2.kenari giriniz :");
+		b = k.nextInt();
+		//	1. ve 2. kenarın değerlerini girdik.
+		//	(a*a)+(b*b) = (c*c)
+		c = Math.sqrt((a*a)+(b*b));
+		System.out.println("Hiptenus :"+c);
+		
+		
+		
+	}
+
+}
